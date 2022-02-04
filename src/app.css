@@ -1,0 +1,46 @@
+body {
+  background-color: #ddd;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Arial";
+}
+
+#board {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.grid-row {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-item {
+  height: 50px;
+  width: 50px;
+  background-color: #aaa;
+  border: 4px solid #333;
+  margin: 2px;
+
+  font-size: 40px;
+  font-family: "Arial";
+
+  text-align: center;
+}
+
+.turn {
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+}
